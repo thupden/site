@@ -1,0 +1,137 @@
+body{
+  margin:0;
+  overflow-x:hidden;
+}
+/*heading section*/
+.background-image{
+  width:100%;
+  height:auto;
+  height:750px;
+  position:fixed;
+  z-index:1;
+  opacity:0.6;
+  top:0;
+}
+.sub-container{
+  position:relative;
+  z-index:2;
+  color:white;
+  text-align:center;
+  padding:20% 0 23% 0;
+}
+.my-container{
+  width:100%;
+  top:0;
+  position:relative;
+   background-color:#00a8cc;
+   z-index:-1;
+   overflow:hidden;
+}
+.title{
+    font-size:4.3rem;
+    margin:0;
+    font-weight:lighter;
+    font-family: 'Parisienne', cursive;
+}
+
+.title-para{
+  font-size:1.25rem;
+  font-family: 'Parisienne', cursive;
+  margin:0;
+}
+
+/*Profile*/
+
+.profile{
+  background-color:white;
+  text-align:center;
+ padding:30px 0;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.12rem;
+}
+
+.profile-img{
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  float:left;
+  margin:20px 0 15px 65px;;
+  border:10px solid #f7f7f7;
+}
+.profile-container{
+  padding:30px 0;
+}
+.profile-div{
+  text-align:left;
+  padding:10px;
+}
+hr{
+  width:30%;
+}
+.about{
+  color:#0fabbc;
+  font-size:3.12rem;
+}
+.profile-head{
+  color:#0fabbc;
+}
+.detail{
+  margin:3px;
+  font-weight:300;
+}
+
+/*experience*/
+.experience{
+  background-color:#e8e8e8;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.12rem;
+  color:#1ee3cf;
+
+}
+.experience-head{
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+    font-size:3.12rem;
+    padding:30px;
+      color:#0fabbc;
+}
+.education{
+  font-size:2.5rem;
+  margin-bottom:20px;
+  padding-top:20px;
+}
+.container{
+  padding-bottom:40px;
+}
+
+.footer{
+  background-color:#311054;
+  text-align:center;
+  padding: 200px 0 50px;
+  color:white;
+}
+.icon{
+  padding:10px;
+  size:3x;
+}
+.copy{
+  margin-top:20px;
+}
+
+@media (max-width:720px){
+.title{
+  font-size:2.7rem;
+}
+.title-para{
+  font-size:1rem;
+}
+.profile{
+  font-size:0.8rem;
+}
+.profile-img{
+  margin-left:110px;
+}
+.educatiom{
+  text-align:center;
+}
+}
